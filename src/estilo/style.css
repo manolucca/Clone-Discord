@@ -1,0 +1,166 @@
+
+body{
+    display: grid;
+    grid-template-columns: 100vw;
+}
+
+#container-above {
+    background-image: url('./imagens/header.fundo.png');
+     background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 459px; 
+}
+
+#container-above .content-1{
+        text-align: center;
+        color: #FFFFFF;
+        margin: 97px 0 0;
+    }
+
+#container-above .content-1  h1{
+            font-size: 56px;
+            font-family: "Luckiest Guy", cursive;
+            font-weight: 400;
+            font-style: normal;
+        }
+
+#container-above .content-1  p{
+    font-size: 16px;
+}
+
+#container-above .content-button {
+       display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    }
+
+#container-above button{
+    padding: 10px;
+    border-radius: 20px;
+}
+
+#container-above .content-button .two{
+    background-color: #23272A;
+    color: #FFFFFF;
+}
+
+#container-above .content-button .one{
+    color: #23272A;
+}
+
+#container-above .content-button .button-one {
+            height: 44px;
+            width: 502px;
+            padding: 25px;
+            border-radius: 25px;
+        }
+
+#container-above .content-button .button-two {
+            height: 44px;
+            width: 502px;
+        }
+
+#container-mae-one{
+    background-color: #FFFFFF;
+    color: #23272A;
+
+    display: flex;
+    justify-content: center;
+
+}
+
+#container-mae-one .container_text_one h1{
+    padding: 12px 0 0;
+    line-height: 40px;
+    font-size: 40px;
+    font-family: "Open Sans", sans-serif;
+}
+
+#container-mae-one .container_text_one p {
+    text-align: justify;
+}
+
+#container-mae-one .container_photo_one .foto1{
+        width: 379px;
+        height: 252px;
+        margin: 46px 0 0;
+}
+
+#container-mae-two{
+    background-color: #F6F6F6;
+
+    display: flex;
+    justify-content: center;
+
+}
+
+#container-mae-two  .container_text_two{
+    padding: 94px 0 0;
+}
+
+#container-mae-two  .container_text_two h1{
+     line-height: 40px;
+    font-size: 40px;
+    font-family: "Open Sans", sans-serif;
+}
+#container-mae-two  .container_text_two p {
+        color: #23272A;
+        text-align: justify;
+    }
+
+#container-mae-four{
+    display: flex;
+    justify-content: center;
+}
+
+#container-mae-four  .container_text_four{
+    padding: 62px 0 0;
+}
+
+#container-mae-four  .container_text_four h1{
+     line-height: 40px;
+    font-size: 40px;
+    font-family: "Open Sans", sans-serif;
+}
+#container-mae-four  .container_text_four p {
+        color: #23272A;
+        text-align: justify;
+    }
+
+#container-mae-five {
+    background-color: #F6F6F6;
+    
+}
+
+#container-mae-five .container_text_five h1{
+    color: #23272A;
+    padding: 30px 0 0;
+    text-align: center;
+     font-size: 40px;
+     font-family: "Luckiest Guy", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#container-mae-five .container_text_five p{
+        text-align: center;
+}
+
+#container-mae-five .container_photo_five{
+   display:flex;
+   justify-content: center;
+}
+
+#container-end{
+    background-color: #23272A;
+    height: 134px;
+}
+
+#container-end .container_log{
+    color: #FFFFFF;
+    padding: 35px 0 0;
+    display: flex;
+    justify-content: center;
+}
